@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="260.0" prefWidth="454.0" style="-fx-background-color: #888888;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="All_Files.Admin_Update">
+    <children>
+        <Label layoutX="74.0" layoutY="14.0" prefHeight="48.0" prefWidth="338.0" text="Choose What To Update" textFill="#ffe8df">
+            <font>
+                <Font name="Consolas" size="28.0" />
+            </font>
+        </Label>
+        <Button layoutX="26.0" layoutY="92.0" mnemonicParsing="false" onAction="#onContactClick" prefHeight="112.0" prefWidth="112.0" style="-fx-background-color: #ffe8df; -fx-background-radius: 100;" text="Contact">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Button layoutX="178.0" layoutY="92.0" mnemonicParsing="false" onAction="#onAddressClick" prefHeight="112.0" prefWidth="112.0" style="-fx-background-color: #ffe8df; -fx-background-radius: 100;" text="Address">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+        <Button layoutX="322.0" layoutY="92.0" mnemonicParsing="false" onAction="#onEmailClick" prefHeight="112.0" prefWidth="112.0" style="-fx-background-color: #ffe8df; -fx-background-radius: 100;" text="Email ID">
+            <font>
+                <Font size="20.0" />
+            </font></Button>
+    </children>
+</AnchorPane>
+

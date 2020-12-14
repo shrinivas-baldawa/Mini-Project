@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<GridPane alignment="center" hgap="10" prefHeight="400.0" prefWidth="632.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="All_Files.Student">
+    <columnConstraints>
+        <ColumnConstraints prefWidth="700.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints prefHeight="450.0" />
+    </rowConstraints>
+    <children>
+        <BorderPane prefHeight="628.0" prefWidth="933.0">
+            <center>
+                <AnchorPane opacity="0.85" prefHeight="419.0" prefWidth="700.0" style="-fx-background-color: cceabb;" BorderPane.alignment="CENTER">
+                    <children>
+                        <Label layoutX="111.0" layoutY="21.0" prefHeight="38.0" prefWidth="54.0" text="Name" textFill="#29a19c">
+                            <font>
+                                <Font name="Segoe UI Emoji" size="19.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="107.0" layoutY="78.0" prefHeight="39.0" prefWidth="145.0" text="Contact Number" textFill="#29a19c">
+                            <font>
+                                <Font name="Segoe UI Emoji" size="19.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="111.0" layoutY="138.0" prefHeight="39.0" prefWidth="39.0" text="DOB" textFill="#29a19c">
+                            <font>
+                                <Font name="Segoe UI Emoji" size="19.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="110.0" layoutY="191.0" prefHeight="38.0" prefWidth="110.0" text="Blood Group" textFill="#29a19c">
+                            <font>
+                                <Font name="Segoe UI Emoji" size="19.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="112.0" layoutY="289.0" prefHeight="38.0" prefWidth="68.0" text="Address" textFill="#29a19c">
+                            <font>
+                                <Font name="Segoe UI Emoji" size="19.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="112.0" layoutY="347.0" prefHeight="38.0" prefWidth="85.0" text="Email ID" textFill="#29a19c">
+                            <font>
+                                <Font name="Segoe UI Emoji" size="19.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="tf_1" layoutX="312.0" layoutY="25.0" opacity="0.66" prefHeight="30.0" prefWidth="245.0" promptText="Name" style="-fx-background-color: transaparent;">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <effect>
+                                <Blend />
+                            </effect>
+                        </TextField>
+                        <Button fx:id="submitButton" layoutX="191.0" layoutY="412.0" mnemonicParsing="false" onAction="#onSubmitButton" prefHeight="26.0" prefWidth="150.0" style="-fx-background-radius: 25; -fx-background-color: a72693;" text="Submit" textFill="WHITE" />
+                        <Button fx:id="cancelButton" layoutX="394.0" layoutY="412.0" mnemonicParsing="false" onAction="#onCancelButton" prefHeight="26.0" prefWidth="150.0" style="-fx-background-radius: 25; -fx-background-color: a72693;" text="Cancel" textFill="WHITE" />
+                        <Label fx:id="lb_prn" layoutX="185.0" layoutY="447.0" prefHeight="46.0" prefWidth="377.0" />
+                        <HBox layoutX="312.0" layoutY="27.0" prefHeight="27.0" prefWidth="246.0" style="-fx-border-color: purple; -fx-border-width: 0px 0px 1px 0px;" />
+                        <HBox layoutX="312.0" layoutY="293.0" prefHeight="27.0" prefWidth="246.0" style="-fx-border-color: purple; -fx-border-width: 0px 0px 1px 0px;">
+                     <children>
+                              <TextField fx:id="tf_5" opacity="0.62" prefHeight="30.0" prefWidth="245.0" promptText="Address" style="-fx-background-color: transaparent;">
+                                  <font>
+                                      <Font size="14.0" />
+                                  </font>
+                              </TextField>
+                     </children></HBox>
+                        <HBox layoutX="312.0" layoutY="351.0" prefHeight="27.0" prefWidth="246.0" style="-fx-border-color: purple; -fx-border-width: 0px 0px 1px 0px;">
+                     <children>
+                              <TextField fx:id="tf_6" opacity="0.62" prefHeight="30.0" prefWidth="245.0" promptText="Email ID" style="-fx-background-color: transaparent;">
+                                  <font>
+                                      <Font size="14.0" />
+                                  </font>
+                              </TextField>
+                     </children></HBox>
+                  <DatePicker fx:id="dob1" editable="false" layoutX="311.0" layoutY="141.0" prefHeight="33.0" prefWidth="248.0" promptText="Select Date Of Birth" style="-fx-background-color: transparent;" />
+                  <ComboBox fx:id="blood_grp" layoutX="311.0" layoutY="197.0" prefHeight="26.0" prefWidth="248.0" promptText="Select Blood Group" />
+                  <Label layoutX="112.0" layoutY="244.0" prefHeight="38.0" prefWidth="68.0" text="Branch" textFill="#29a19c">
+                     <font>
+                        <Font name="Segoe UI Emoji" size="19.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="branch" layoutX="311.0" layoutY="250.0" prefHeight="26.0" prefWidth="247.0" promptText="Select Branch" />
+                  <HBox layoutX="313.0" layoutY="82.0" prefHeight="27.0" prefWidth="250.0" style="-fx-border-color: purple; -fx-border-width: 0px 0px 1px 0px;">
+                     <children>
+                        <TextField fx:id="tf_2" opacity="0.66" prefHeight="30.0" prefWidth="258.0" promptText="Contact" style="-fx-background-color: transaparent;">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <effect>
+                              <Blend />
+                           </effect>
+                        </TextField>
+                     </children></HBox>
+                    </children>
+                </AnchorPane>
+            </center>
+        </BorderPane>
+    </children>
+</GridPane>

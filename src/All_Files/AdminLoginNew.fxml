@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="387.0" style="-fx-background-color: #8ad7c1;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="All_Files.AdminLogin">
+    <children>
+        <Button fx:id="view" layoutX="19.0" layoutY="79.0" mnemonicParsing="false" onAction="#onClickView" prefHeight="82.0" prefWidth="218.0" style="-fx-background-color: #ffa62b;" text="View Details Of Students" textFill="WHITE">
+            <font>
+                <Font name="Consolas" size="15.0" />
+            </font></Button>
+        <Button fx:id="update" layoutX="108.0" layoutY="180.0" mnemonicParsing="false" onAction="#onClickUpdate" prefHeight="99.0" prefWidth="258.0" style="-fx-background-color: #ffa62b;" text="Update Details Of Students" textFill="WHITE">
+            <font>
+                <Font name="Consolas" size="16.0" />
+            </font></Button>
+        <Label layoutX="120.0" layoutY="8.0" prefHeight="58.0" prefWidth="206.0" text="Admin Login" textFill="#e88b49">
+            <font>
+                <Font name="Consolas" size="25.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
+

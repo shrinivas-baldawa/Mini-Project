@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="478.0" prefWidth="600.0" style="-fx-background-color: #FBE5C8;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="All_Files.View_BasicDetails">
+    <children>
+        <Button layoutX="498.0" layoutY="55.0" mnemonicParsing="false" onAction="#onOK" prefHeight="34.0" prefWidth="54.0" style="-fx-background-radius: 105; -fx-background-color: #000000;" text="OK" textFill="#fbe5c8">
+            <font>
+                <Font name="Consolas" size="18.0" />
+            </font></Button>
+        <Label layoutX="59.0" layoutY="72.0" text="Enter PRN">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="149.0" layoutY="7.0" text="Student Basic Details" textFill="#6f6f6f">
+            <font>
+                <Font name="System Bold" size="32.0" />
+            </font>
+        </Label>
+        <Label layoutX="66.0" layoutY="118.0" prefHeight="26.0" prefWidth="42.0" text="Name">
+            <font>
+                <Font size="15.0" />
+            </font></Label>
+        <Label layoutX="73.0" layoutY="160.0" text="Branch">
+            <font>
+                <Font size="15.0" />
+            </font></Label>
+        <Label layoutX="61.0" layoutY="201.0" text="Contact">
+            <font>
+                <Font size="15.0" />
+            </font></Label>
+        <Label layoutX="65.0" layoutY="246.0" text="Email ID">
+            <font>
+                <Font size="15.0" />
+            </font></Label>
+        <Label layoutX="66.0" layoutY="279.0" text="Address">
+            <font>
+                <Font size="15.0" />
+            </font></Label>
+        <Label layoutX="50.0" layoutY="323.0" text="Blood Group">
+            <font>
+                <Font size="15.0" />
+            </font></Label>
+        <Label fx:id="success_failure" layoutX="181.0" layoutY="410.0" prefHeight="53.0" prefWidth="301.0" />
+        <Label layoutX="49.0" layoutY="362.0" text="Date Of Birth">
+            <font>
+                <Font size="15.0" />
+            </font></Label>
+        <HBox layoutX="199.0" layoutY="57.0" prefHeight="30.0" prefWidth="266.0" style="-fx-border-color: #000000; -fx-border-width: 0 0 1 0;">
+            <children>
+                <TextField fx:id="prn_tf1" prefHeight="26.0" prefWidth="265.0" promptText="PRN" style="-fx-background-color: transparent;">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </TextField>
+            </children>
+        </HBox>
+        <HBox layoutX="199.0" layoutY="101.0" prefHeight="30.0" prefWidth="266.0" style="-fx-border-color: #000000; -fx-border-width: 0 0 1 0;">
+            <children>
+                <Label fx:id="tf_1" prefHeight="30.0" prefWidth="269.0" />
+            </children>
+        </HBox>
+        <HBox layoutX="199.0" layoutY="147.0" prefHeight="30.0" prefWidth="266.0" style="-fx-border-color: #000000; -fx-border-width: 0 0 1 0;">
+            <children>
+                <Label fx:id="tf_2" prefHeight="30.0" prefWidth="270.0" />
+            </children>
+        </HBox>
+        <HBox layoutX="199.0" layoutY="188.0" prefHeight="30.0" prefWidth="266.0" style="-fx-border-color: #000000; -fx-border-width: 0 0 1 0;">
+            <children>
+                <Label fx:id="tf_3" prefHeight="29.0" prefWidth="266.0" />
+            </children>
+        </HBox>
+        <HBox layoutX="199.0" layoutY="232.0" prefHeight="30.0" prefWidth="266.0" style="-fx-border-color: #000000; -fx-border-width: 0 0 1 0;">
+            <children>
+                <Label fx:id="tf_4" prefHeight="33.0" prefWidth="266.0" />
+            </children>
+        </HBox>
+        <HBox layoutX="199.0" layoutY="267.0" prefHeight="30.0" prefWidth="266.0" style="-fx-border-color: #000000; -fx-border-width: 0 0 1 0;">
+            <children>
+                <Label fx:id="tf_5" prefHeight="30.0" prefWidth="273.0" />
+            </children>
+        </HBox>
+        <HBox layoutX="199.0" layoutY="309.0" prefHeight="30.0" prefWidth="266.0" style="-fx-border-color: #000000; -fx-border-width: 0 0 1 0;">
+            <children>
+                <Label fx:id="tf_6" prefHeight="31.0" prefWidth="270.0" />
+            </children>
+        </HBox>
+        <HBox layoutX="199.0" layoutY="347.0" prefHeight="30.0" prefWidth="266.0" style="-fx-border-color: #000000; -fx-border-width: 0 0 1 0;">
+            <children>
+                <Label fx:id="tf_7" prefHeight="29.0" prefWidth="269.0" />
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>

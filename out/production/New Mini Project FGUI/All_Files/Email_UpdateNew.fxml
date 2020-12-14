@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="324.0" prefWidth="578.0" style="-fx-background-color: #839b97;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="All_Files.Email_Update">
+    <children>
+        <Button layoutX="243.0" layoutY="239.0" mnemonicParsing="false" onAction="#onSubmit" prefHeight="48.0" prefWidth="104.0" style="-fx-background-radius: 25; -fx-background-color: white;" text="Submit">
+            <font>
+                <Font size="18.0" />
+            </font></Button>
+        <Label layoutX="221.0" layoutY="36.0" text="Email ID Updation" textFill="#fbfdfd">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="66.0" layoutY="96.0" text="PRN" textFill="#fbfdfd">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="66.0" layoutY="167.0" text="New Email ID" textFill="#fbfdfd">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="success_lb1" layoutX="53.0" layoutY="295.0" prefHeight="22.0" prefWidth="484.0" textAlignment="CENTER">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <TextField fx:id="prn_tf1" layoutX="221.0" layoutY="94.0" prefHeight="26.0" prefWidth="197.0" promptText="PRN" style="-fx-background-radius: 25; -fx-background-color: #cfd3ce;" />
+        <TextField fx:id="email_tf2" layoutX="221.0" layoutY="165.0" prefHeight="26.0" prefWidth="198.0" promptText="Email ID" style="-fx-background-radius: 25; -fx-background-color: #cfd3ce;" />
+    </children>
+</AnchorPane>

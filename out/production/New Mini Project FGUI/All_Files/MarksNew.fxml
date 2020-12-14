@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="All_Files.Marks">
+    <children>
+        <BorderPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #4f8a8b;">
+            <top>
+                <Label prefHeight="71.0" prefWidth="561.0" text="Fill the details asked below regarding the marks you scored in the following exams:" textAlignment="CENTER" textFill="#fbd46d" BorderPane.alignment="CENTER">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+            </top>
+            <left>
+                <BorderPane prefHeight="329.0" prefWidth="239.0" BorderPane.alignment="CENTER">
+                    <center>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                            <children>
+                                <Label layoutX="37.0" prefHeight="49.0" prefWidth="165.0" text="10th Standard" textFill="#fbd46d">
+                                    <font>
+                                        <Font size="20.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="40.0" layoutY="56.0" prefHeight="54.0" prefWidth="160.0" text="12th Standard" textFill="#fbd46d">
+                                    <font>
+                                        <Font size="20.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="40.0" layoutY="164.0" prefHeight="54.0" prefWidth="160.0" text="CET Result" textFill="#fbd46d">
+                                    <font>
+                                        <Font size="20.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="43.0" layoutY="110.0" prefHeight="54.0" prefWidth="160.0" text="CET_ID" textFill="#fbd46d">
+                                    <font>
+                                        <Font size="20.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="40.0" layoutY="219.0" prefHeight="54.0" prefWidth="160.0" text="JEE Result" textFill="#fbd46d">
+                                    <font>
+                                        <Font size="20.0" />
+                                    </font>
+                                </Label>
+                                <Button fx:id="bt_1" layoutX="189.0" layoutY="283.0" mnemonicParsing="false" onAction="#onSubmit" prefHeight="31.0" prefWidth="75.0" style="-fx-background-radius: 25; -fx-background-color: #fbd46d;" text="Submit" />
+                            </children>
+                        </AnchorPane>
+                    </center>
+                </BorderPane>
+            </left>
+            <center>
+                <BorderPane prefHeight="329.0" prefWidth="356.0" BorderPane.alignment="CENTER">
+                    <center>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                            <children>
+                                <Button fx:id="bt_2" layoutX="17.0" layoutY="283.0" mnemonicParsing="false" onAction="#onCancel" prefHeight="31.0" prefWidth="75.0" style="-fx-background-radius: 25; -fx-background-color: #fbd46d;" text="Cancel" />
+                                <HBox layoutX="62.0" layoutY="11.0" prefHeight="32.0" prefWidth="234.0" style="-fx-border-color: fbd46d; -fx-border-width: 0 0 1 0;">
+                                    <children>
+                                        <TextField fx:id="tf_1" prefHeight="25.0" prefWidth="234.0" promptText="10th Percentage" style="-fx-background-color: transparent;" />
+                                    </children>
+                                </HBox>
+                                <HBox layoutX="62.0" layoutY="69.0" prefHeight="32.0" prefWidth="234.0" style="-fx-border-color: fbd46d; -fx-border-width: 0 0 1 0;">
+                                    <children>
+                                        <TextField fx:id="tf_2" prefHeight="25.0" prefWidth="234.0" promptText="12th Percentage" style="-fx-background-color: transparent;" />
+                                    </children>
+                                </HBox>
+                                <HBox layoutX="62.0" layoutY="123.0" prefHeight="32.0" prefWidth="234.0" style="-fx-border-color: fbd46d; -fx-border-width: 0 0 1 0;">
+                                    <children>
+                                        <TextField fx:id="tf_3" prefHeight="25.0" prefWidth="234.0" promptText="CET Roll Number" style="-fx-background-color: transparent;" />
+                                    </children>
+                                </HBox>
+                                <HBox layoutX="62.0" layoutY="173.0" prefHeight="32.0" prefWidth="234.0" style="-fx-border-color: fbd46d; -fx-border-width: 0 0 1 0;">
+                                    <children>
+                                        <TextField fx:id="tf_4" prefHeight="25.0" prefWidth="234.0" promptText="CET Score" style="-fx-background-color: transparent;" />
+                                    </children>
+                                </HBox>
+                                <HBox layoutX="62.0" layoutY="228.0" prefHeight="32.0" prefWidth="234.0" style="-fx-border-color: fbd46d; -fx-border-width: 0 0 1 0;">
+                                    <children>
+                                        <TextField fx:id="tf_5" prefHeight="25.0" prefWidth="234.0" promptText="Jee Score" style="-fx-background-color: transparent;" />
+                                    </children>
+                                </HBox>
+                            </children>
+                        </AnchorPane>
+                    </center>
+                </BorderPane>
+            </center>
+        </BorderPane>
+    </children>
+</AnchorPane>
+

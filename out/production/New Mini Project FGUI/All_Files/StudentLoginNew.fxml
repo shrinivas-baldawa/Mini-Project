@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="387.0" prefWidth="442.0" style="-fx-background-color: bce6eb;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="All_Files.StudentLogin">
+    <children>
+        <Label layoutX="114.0" layoutY="-2.0" prefHeight="54.0" prefWidth="210.0" text="Student Login" textFill="#67a5b7">
+            <font>
+                <Font size="34.0" />
+            </font>
+        </Label>
+        <Button layoutX="372.0" layoutY="359.0" mnemonicParsing="false" onAction="#onCancel" prefHeight="27.0" prefWidth="69.0" style="-fx-background-color: white; -fx-background-radius: 50;" text="Cancel" textFill="#517fa7">
+            <font>
+                <Font name="Consolas" size="14.0" />
+            </font></Button>
+        <Button fx:id="student" layoutX="64.0" layoutY="66.0" mnemonicParsing="false" onAction="#onClickStudent" prefHeight="42.0" prefWidth="318.0" style="-fx-background-color: white; -fx-background-radius: 100;" text="Basic Details" textFill="#517fa7">
+            <font>
+                <Font name="Consolas" size="22.0" />
+            </font>
+        </Button>
+        <Button fx:id="marks" layoutX="60.0" layoutY="176.0" mnemonicParsing="false" onAction="#onClickMarks" prefHeight="42.0" prefWidth="318.0" style="-fx-background-color: white; -fx-background-radius: 100;" text="Academic Details" textFill="#517fa7">
+            <font>
+                <Font name="Consolas" size="22.0" />
+            </font>
+        </Button>
+        <Button fx:id="fees" layoutX="62.0" layoutY="120.0" mnemonicParsing="false" onAction="#onClickFees" prefHeight="42.0" prefWidth="318.0" style="-fx-background-color: white; -fx-background-radius: 100;" text="Fees Details" textFill="#517fa7">
+            <font>
+                <Font name="Consolas" size="22.0" />
+            </font>
+        </Button>
+      <Button fx:id="marks1" layoutX="60.0" layoutY="231.0" mnemonicParsing="false" onAction="#onClickInternship" prefHeight="48.0" prefWidth="318.0" style="-fx-background-color: white; -fx-background-radius: 100;" text="Internship Details" textFill="#517fa7">
+         <font>
+            <Font name="Consolas" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="marks11" layoutX="60.0" layoutY="291.0" mnemonicParsing="false" onAction="#onClickStudentCouncil" prefHeight="48.0" prefWidth="318.0" style="-fx-background-color: white; -fx-background-radius: 100;" text="Student Council Details" textFill="#517fa7">
+         <font>
+            <Font name="Consolas" size="22.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="247.0" prefWidth="600.0" style="-fx-background-color: #a3f7bf;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="All_Files.View_FeesDetails">
+    <children>
+        <Label layoutX="63.0" layoutY="49.0" prefHeight="27.0" prefWidth="136.0" text="Enter Fees ID" textFill="#5a9f9f">
+            <font>
+                <Font name="Consolas" size="18.0" />
+            </font></Label>
+        <Button layoutX="430.0" layoutY="50.0" mnemonicParsing="false" onAction="#onClick" prefHeight="26.0" prefWidth="67.0" style="-fx-background-radius: 25; -fx-background-color: #43d8c9;" text="OK" textFill="WHITE" />
+        <Label layoutX="87.0" layoutY="126.0" text="Installments" textFill="#5a9f9f">
+            <font>
+                <Font name="Consolas" size="18.0" />
+            </font></Label>
+        <Label layoutX="87.0" layoutY="172.0" text="Method Of Payment" textFill="#5a9f9f">
+            <font>
+                <Font name="Consolas" size="18.0" />
+            </font></Label>
+        <Label fx:id="success_failure" layoutX="231.0" layoutY="214.0" prefHeight="18.0" prefWidth="172.0" />
+        <TextField fx:id="feed_id" layoutX="219.0" layoutY="50.0" prefHeight="26.0" prefWidth="195.0" promptText="Fees ID" style="-fx-background-radius: 25; -fx-background-color: White;" />
+        <Label fx:id="installments" layoutX="272.0" layoutY="119.0" prefHeight="26.0" prefWidth="119.0" />
+        <Label fx:id="method_pay" layoutX="272.0" layoutY="170.0" prefHeight="26.0" prefWidth="119.0" />
+    </children>
+</AnchorPane>

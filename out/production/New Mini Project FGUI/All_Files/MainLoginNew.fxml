@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="395.0" prefWidth="641.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="All_Files.Main">
+    <children>
+        <ImageView fx:id="bg_image" fitHeight="400.0" fitWidth="651.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pics/bg.jpeg" />    
+         </image></ImageView>
+        <Label layoutX="132.0" layoutY="51.0" text="Welcome To Online Admission Portal" textFill="WHITE">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <VBox layoutX="169.0" layoutY="114.0" prefHeight="194.0" prefWidth="336.0">
+            <children>
+                <HBox prefHeight="54.0" prefWidth="326.0" style="-fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;">
+                    <children>
+                        <ImageView fx:id="username_img" fitHeight="40.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                            <HBox.margin>
+                                <Insets />
+                            </HBox.margin>
+                     <image>
+                        <Image url="@../pics/username1.png" />
+                     </image>
+                        </ImageView>
+                        <TextField fx:id="username" prefHeight="52.0" prefWidth="289.0" promptText="Username" style="-fx-background-color: transparent;" HBox.hgrow="ALWAYS">
+                            <font>
+                                <Font name="Consolas" size="21.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                </HBox>
+                <HBox prefHeight="52.0" prefWidth="326.0" style="-fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;">
+                    <children>
+                        <ImageView fx:id="password_img" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pics/password1.png" />
+                     </image></ImageView>
+                        <PasswordField fx:id="password" prefHeight="50.0" prefWidth="297.0" promptText="Password" style="-fx-background-color: trabsparent;">
+                            <font>
+                                <Font size="21.0" />
+                            </font>
+                        </PasswordField>
+                    </children>
+                    <VBox.margin>
+                        <Insets top="40.0" />
+                    </VBox.margin>
+                </HBox>
+            </children>
+        </VBox>
+        <Button layoutX="239.0" layoutY="294.0" mnemonicParsing="false" onAction="#onSubmit" opacity="0.73" prefHeight="28.0" prefWidth="194.0" style="-fx-background-color: c6fced; -fx-background-radius: 100; -fx-text-fill: Black; -fx-font-family: Consolas; -fx-font-weight: Bold;" text="Submit">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <ImageView fx:id="submit_img" fitHeight="28.0" fitWidth="36.0" layoutX="276.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pics/submit1.png" />
+         </image></ImageView>
+        <Button layoutX="239.0" layoutY="342.0" mnemonicParsing="false" onAction="#onCancel" opacity="0.73" prefHeight="28.0" prefWidth="194.0" style="-fx-background-color: c6fced; -fx-background-radius: 100; -fx-text-fill: Black; -fx-font-family: Consolas; -fx-font-weight: Bold;" text="Cancel">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

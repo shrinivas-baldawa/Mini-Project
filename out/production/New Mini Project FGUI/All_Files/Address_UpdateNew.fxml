@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="416.0" style="-fx-background-color: #f0f0f0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="All_Files.Address_Update">
+    <children>
+        <Button layoutX="160.0" layoutY="191.0" mnemonicParsing="false" onAction="#onSubmit" prefHeight="47.0" prefWidth="95.0" style="-fx-background-radius: 25; -fx-background-color: #9cd541;" text="Submit" />
+        <Label layoutX="136.0" layoutY="14.0" text="Address Updation" textFill="#9cd541">
+            <font>
+                <Font name="Consolas" size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="lb_success" layoutX="115.0" layoutY="246.0" prefHeight="18.0" prefWidth="200.0" textAlignment="CENTER" />
+        <HBox layoutX="215.0" layoutY="68.0" prefHeight="30.0" prefWidth="170.0" style="-fx-border-color: #9cd541; -fx-border-width: 0 0 1 0;">
+            <children>
+                <TextField fx:id="prn" prefHeight="29.0" prefWidth="172.0" promptText="PRN" style="-fx-background-color: transparent;" />
+            </children>
+        </HBox>
+        <HBox layoutX="215.0" layoutY="125.0" prefHeight="30.0" prefWidth="170.0" style="-fx-border-color: #9cd541; -fx-border-width: 0 0 1 0;">
+            <children>
+                <TextField fx:id="new_address" prefHeight="30.0" prefWidth="172.0" promptText="New Address" style="-fx-background-color: transparent;" />
+            </children>
+        </HBox>
+        <Label layoutX="105.0" layoutY="72.0" text="PRN" textFill="#9cd541">
+            <font>
+                <Font name="Consolas" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="74.0" layoutY="129.0" text="New Address" textFill="#9cd541">
+            <font>
+                <Font name="Consolas" size="18.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="600.0" style="-fx-background-color: dff3e3;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="All_Files.View_AcademicDetails">
+    <children>
+        <Label layoutX="88.0" layoutY="49.0" prefHeight="31.0" prefWidth="74.0" text="CET ID" textFill="#456268">
+            <font>
+                <Font name="Consolas" size="21.0" />
+            </font></Label>
+        <Label layoutX="79.0" layoutY="108.0" text="10th Marks" textFill="#456268">
+            <font>
+                <Font name="Consolas" size="22.0" />
+            </font></Label>
+        <Label layoutX="73.0" layoutY="178.0" text="12th Marks" textFill="#456268">
+            <font>
+                <Font name="Consolas" size="22.0" />
+            </font></Label>
+        <Label layoutX="73.0" layoutY="241.0" text="CET Result" textFill="#456268">
+            <font>
+                <Font name="Consolas" size="22.0" />
+            </font></Label>
+        <Label layoutX="79.0" layoutY="307.0" text="JEE Result" textFill="#456268">
+            <font>
+                <Font name="Consolas" size="22.0" />
+            </font></Label>
+        <HBox layoutX="241.0" layoutY="105.0" prefHeight="31.0" prefWidth="218.0" style="-fx-border-color: purple; -fx-border-width: 0px 0px 1px 0px;">
+            <children>
+              <Label fx:id="lb_1" prefHeight="30.0" prefWidth="442.0" />
+            </children>
+        </HBox>
+        <HBox layoutX="241.0" layoutY="175.0" prefHeight="31.0" prefWidth="218.0" style="-fx-border-color: purple; -fx-border-width: 0px 0px 1px 0px;">
+            <children>
+                <Label fx:id="lb_2" prefHeight="52.0" prefWidth="217.0" />
+            </children>
+        </HBox>
+        <HBox layoutX="241.0" layoutY="239.0" prefHeight="31.0" prefWidth="218.0" style="-fx-border-color: purple; -fx-border-width: 0px 0px 1px 0px;">
+            <children>
+                <Label fx:id="lb_3" prefHeight="52.0" prefWidth="217.0" />
+            </children>
+        </HBox>
+        <HBox layoutX="241.0" layoutY="304.0" prefHeight="31.0" prefWidth="218.0" style="-fx-border-color: purple; -fx-border-width: 0px 0px 1px 0px;">
+            <children>
+                <Label fx:id="lb_4" prefHeight="52.0" prefWidth="217.0" />
+            </children>
+        </HBox>
+      <Label fx:id="success_failure" layoutX="159.0" layoutY="355.0" prefHeight="18.0" prefWidth="282.0" />
+      <TextField fx:id="tf_1" layoutX="241.0" layoutY="52.0" prefHeight="26.0" prefWidth="219.0" />
+      <Button layoutX="491.0" layoutY="49.0" mnemonicParsing="false" onAction="#onClickOK" prefHeight="31.0" prefWidth="43.0" style="-fx-background-color: silver; -fx-background-radius: 10px;" text="OK" textFill="#456268">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
