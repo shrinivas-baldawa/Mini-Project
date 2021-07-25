@@ -26,7 +26,7 @@ public class Email_Update {
         try{
             Class.forName("org.postgresql.Driver");
             System.out.println("Connecting to database");
-            c = DriverManager.getConnection("jdbc:postgresql://localhost:5432/FinalDB","postgres","Shrinivas1@");
+            c = DriverManager.getConnection("jdbc:postgresql://ec2-18-206-20-102.compute-1.amazonaws.com:5432/ddeuc850qat336","gnmwvfusjgondu","d24dd511d794c7214bec9c67be92740279caabac4cb8e08f4769f49de27b580e");
             System.out.println("Connected to the database");
             String check_prn = prn_tf1.getText();
             String nEmail = email_tf2.getText();
@@ -56,11 +56,7 @@ public class Email_Update {
             }
             else
                 success_lb1.setText("Email ID not valid");
-        }
-        catch (SQLException e){
-            e.printStackTrace();
-        }
-        catch (Exception e){
+        } catch (Exception e){
             e.printStackTrace();
         }
     }

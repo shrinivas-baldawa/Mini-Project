@@ -56,7 +56,5 @@ public class Admin_View {
         catch (Exception e){
             System.out.println("Window could not be loaded");
         }
-
     }
-
 }

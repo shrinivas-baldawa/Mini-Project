@@ -106,5 +106,4 @@ public class StudentLogin {
             System.out.println("Window could not be loaded");
         }
     }
-
 }

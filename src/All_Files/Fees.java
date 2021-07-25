@@ -62,7 +62,7 @@ public class Fees implements Initializable {
         try{
             Class.forName("org.postgresql.Driver");
             System.out.println("Connecting to database");
-            c = DriverManager.getConnection("jdbc:postgresql://localhost:5432/FinalDB","postgres","Shrinivas1@");
+            c = DriverManager.getConnection("jdbc:postgresql://ec2-18-206-20-102.compute-1.amazonaws.com:5432/ddeuc850qat336","gnmwvfusjgondu","d24dd511d794c7214bec9c67be92740279caabac4cb8e08f4769f49de27b580e");
             System.out.println("Connected to the database");
             String t_amt = lb_2.getText();
             String installments = String.valueOf(cb_1.getValue());
@@ -89,11 +89,7 @@ public class Fees implements Initializable {
             alert.setContentText(f_id+" Please Note This ID for further enquires");
             alert.setTitle("Confirmation");
             alert.showAndWait();
-        }
-        catch (SQLException e){
-            e.printStackTrace();
-        }
-        catch (Exception e){
+        } catch (Exception e){
             e.printStackTrace();
         }
     }

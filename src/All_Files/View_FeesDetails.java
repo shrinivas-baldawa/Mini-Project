@@ -26,7 +26,7 @@ public class View_FeesDetails {
         try{
             Class.forName("org.postgresql.Driver");
             System.out.println("Connecting to database");
-            c = DriverManager.getConnection("jdbc:postgresql://localhost:5432/FinalDB","postgres","Shrinivas1@");
+            c = DriverManager.getConnection("jdbc:postgresql://ec2-18-206-20-102.compute-1.amazonaws.com:5432/ddeuc850qat336","gnmwvfusjgondu","d24dd511d794c7214bec9c67be92740279caabac4cb8e08f4769f49de27b580e");
             System.out.println("Connected to the database");
             String fees_id = feed_id.getText();
             PreparedStatement pstmt = c.prepareStatement("SELECT * FROM fees WHERE fees_id = ?");
@@ -36,11 +36,7 @@ public class View_FeesDetails {
                 installments.setText(rs.getString(2));
                 method_pay.setText(rs.getString(3));
             }
-        }
-        catch (SQLException e){
-            e.printStackTrace();
-        }
-        catch (Exception e){
+        } catch (Exception e){
             e.printStackTrace();
         }
     }
